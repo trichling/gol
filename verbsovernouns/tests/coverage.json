@@ -1,0 +1,851 @@
+{
+  "gol.dll": {
+    "C:\\lab\\coderetreat\\verbsovernouns\\gol\\ChangeCellState.cs": {
+      "gol.ChangeCellState": {
+        "System.Void gol.ChangeCellState::.cctor()": {
+          "Lines": {
+            "6": 1,
+            "7": 1,
+            "8": 1,
+            "9": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\lab\\coderetreat\\verbsovernouns\\gol\\CountLivingNeighbours.cs": {
+      "gol.CountLivingNeighbours": {
+        "System.Int32 gol.CountLivingNeighbours::NumberOfLivingNeighboursOf(gol.LocateCellAt)": {
+          "Lines": {
+            "18": 123,
+            "19": 123,
+            "20": 979,
+            "21": 123
+          },
+          "Branches": []
+        },
+        "System.Void gol.CountLivingNeighbours::.ctor(gol.LocateAdjacentCells,gol.LocateLivingCells)": {
+          "Lines": {
+            "11": 3,
+            "12": 3,
+            "13": 3,
+            "14": 3,
+            "15": 3
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\lab\\coderetreat\\verbsovernouns\\gol\\DetermineCellActionByApplyingAllRules.cs": {
+      "gol.DetermineCellActionByApplyingAllRules": {
+        "gol.ChangeCellState gol.DetermineCellActionByApplyingAllRules::DetermineCellAction()": {
+          "Lines": {
+            "17": 139,
+            "18": 139,
+            "19": 12,
+            "20": 12,
+            "21": 12,
+            "22": 12,
+            "23": 12,
+            "24": 12,
+            "26": 33,
+            "29": 127,
+            "30": 127,
+            "32": 139
+          },
+          "Branches": [
+            {
+              "Line": 18,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 12
+            },
+            {
+              "Line": 26,
+              "Offset": 83,
+              "EndOffset": 85,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 26,
+              "Offset": 83,
+              "EndOffset": 108,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 12
+            },
+            {
+              "Line": 26,
+              "Offset": 113,
+              "EndOffset": 115,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 10
+            },
+            {
+              "Line": 26,
+              "Offset": 113,
+              "EndOffset": 122,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 2
+            },
+            {
+              "Line": 18,
+              "Offset": 9,
+              "EndOffset": 130,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 127
+            }
+          ]
+        },
+        "System.Void gol.DetermineCellActionByApplyingAllRules::.ctor(System.Boolean,System.Int32)": {
+          "Lines": {
+            "10": 139,
+            "11": 139,
+            "12": 139,
+            "13": 139,
+            "14": 139
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\lab\\coderetreat\\verbsovernouns\\gol\\DetermineIfCellDiesDueToOverpopulation.cs": {
+      "gol.DetermineIfCellDiesDueToOverpopulation": {
+        "gol.ChangeCellState gol.DetermineIfCellDiesDueToOverpopulation::DetermineCellAction()": {
+          "Lines": {
+            "13": 21,
+            "14": 21,
+            "15": 10,
+            "17": 11,
+            "18": 21
+          },
+          "Branches": [
+            {
+              "Line": 14,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 10
+            },
+            {
+              "Line": 14,
+              "Offset": 12,
+              "EndOffset": 22,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 11
+            }
+          ]
+        },
+        "System.Void gol.DetermineIfCellDiesDueToOverpopulation::.ctor(System.Int32)": {
+          "Lines": {
+            "7": 21,
+            "8": 21,
+            "9": 21,
+            "10": 21
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\lab\\coderetreat\\verbsovernouns\\gol\\DetermineIfCellDiesDueToUnderpopulation.cs": {
+      "gol.DetermineIfCellDiesDueToUnderpopulation": {
+        "gol.ChangeCellState gol.DetermineIfCellDiesDueToUnderpopulation::DetermineCellAction()": {
+          "Lines": {
+            "13": 21,
+            "14": 21,
+            "15": 7,
+            "17": 14,
+            "18": 21
+          },
+          "Branches": [
+            {
+              "Line": 14,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 7
+            },
+            {
+              "Line": 14,
+              "Offset": 12,
+              "EndOffset": 22,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 14
+            }
+          ]
+        },
+        "System.Void gol.DetermineIfCellDiesDueToUnderpopulation::.ctor(System.Int32)": {
+          "Lines": {
+            "7": 21,
+            "8": 21,
+            "9": 21,
+            "10": 21
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\lab\\coderetreat\\verbsovernouns\\gol\\DetermineIfCellRessurectsWhenInHabitableZone.cs": {
+      "gol.DetermineIfCellRessurectsWhenInHabitableZone": {
+        "gol.ChangeCellState gol.DetermineIfCellRessurectsWhenInHabitableZone::DetermineCellAction()": {
+          "Lines": {
+            "13": 136,
+            "14": 136,
+            "15": 3,
+            "17": 133,
+            "18": 136
+          },
+          "Branches": [
+            {
+              "Line": 14,
+              "Offset": 12,
+              "EndOffset": 14,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 3
+            },
+            {
+              "Line": 14,
+              "Offset": 12,
+              "EndOffset": 22,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 133
+            }
+          ]
+        },
+        "System.Void gol.DetermineIfCellRessurectsWhenInHabitableZone::.ctor(System.Int32)": {
+          "Lines": {
+            "7": 136,
+            "8": 136,
+            "9": 136,
+            "10": 136
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\lab\\coderetreat\\verbsovernouns\\gol\\DetermineIfCellSurvivesWhenInHabitableZone.cs": {
+      "gol.DetermineIfCellSurvivesWhenInHabitableZone": {
+        "gol.ChangeCellState gol.DetermineIfCellSurvivesWhenInHabitableZone::DetermineCellAction()": {
+          "Lines": {
+            "13": 21,
+            "14": 21,
+            "15": 4,
+            "17": 17,
+            "18": 21
+          },
+          "Branches": [
+            {
+              "Line": 14,
+              "Offset": 8,
+              "EndOffset": 10,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 19
+            },
+            {
+              "Line": 14,
+              "Offset": 8,
+              "EndOffset": 21,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 14,
+              "Offset": 24,
+              "EndOffset": 26,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 4
+            },
+            {
+              "Line": 14,
+              "Offset": 24,
+              "EndOffset": 34,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 17
+            }
+          ]
+        },
+        "System.Void gol.DetermineIfCellSurvivesWhenInHabitableZone::.ctor(System.Int32)": {
+          "Lines": {
+            "7": 21,
+            "8": 21,
+            "9": 21,
+            "10": 21
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\lab\\coderetreat\\verbsovernouns\\gol\\EnumerateCells.cs": {
+      "gol.EnumerateCells": {
+        "System.Boolean gol.EnumerateCells::IsWithinRange(gol.LocateCellAt)": {
+          "Lines": {
+            "23": 1008,
+            "24": 1008,
+            "25": 1008
+          },
+          "Branches": []
+        },
+        "System.Void gol.EnumerateCells::.ctor(gol.LocateCellAt,gol.LocateCellAt)": {
+          "Lines": {
+            "14": 7,
+            "15": 7,
+            "16": 7,
+            "17": 7,
+            "18": 7,
+            "19": 7,
+            "20": 7
+          },
+          "Branches": []
+        }
+      },
+      "gol.EnumerateCells/<All>d__6": {
+        "System.Boolean gol.EnumerateCells/<All>d__6::MoveNext()": {
+          "Lines": {
+            "28": 1010,
+            "29": 13400,
+            "30": 146056,
+            "31": 67338,
+            "32": 140
+          },
+          "Branches": [
+            {
+              "Line": 28,
+              "Offset": 14,
+              "EndOffset": 22,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 211,
+              "EndOffset": 56,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 6560
+            },
+            {
+              "Line": 30,
+              "Offset": 164,
+              "EndOffset": 80,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 67338
+            },
+            {
+              "Line": 28,
+              "Offset": 14,
+              "EndOffset": 112,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 66468
+            },
+            {
+              "Line": 30,
+              "Offset": 164,
+              "EndOffset": 166,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 5690
+            },
+            {
+              "Line": 29,
+              "Offset": 211,
+              "EndOffset": 216,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 140
+            }
+          ]
+        }
+      }
+    },
+    "C:\\lab\\coderetreat\\verbsovernouns\\gol\\LocateAdjacentCells.cs": {
+      "gol.LocateAdjacentCells": {
+        "System.Collections.Generic.IEnumerable`1<gol.LocateCellAt> gol.LocateAdjacentCells::DetermineNeighbourhoodOf(gol.LocateCellAt)": {
+          "Lines": {
+            "17": 126,
+            "18": 126,
+            "19": 1134,
+            "20": 126
+          },
+          "Branches": []
+        },
+        "System.Void gol.LocateAdjacentCells::.ctor(gol.EnumerateCells)": {
+          "Lines": {
+            "11": 6,
+            "12": 6,
+            "13": 6,
+            "14": 6
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\lab\\coderetreat\\verbsovernouns\\gol\\LocateCellAt.cs": {
+      "gol.LocateCellAt": {
+        "System.Boolean gol.LocateCellAt::IsAt(System.Int32,System.Int32,gol.LocateCellAt)": {
+          "Lines": {
+            "10": 1,
+            "11": 1,
+            "12": 1
+          },
+          "Branches": []
+        },
+        "gol.LocateCellAt gol.LocateCellAt::CellAtOffset(gol.LocateCellAt)": {
+          "Lines": {
+            "24": 1008,
+            "25": 1008,
+            "26": 1008
+          },
+          "Branches": []
+        },
+        "System.ValueTuple`2<System.Int32,System.Int32> gol.LocateCellAt::DistanceTo(gol.LocateCellAt)": {
+          "Lines": {
+            "29": 14,
+            "30": 14,
+            "31": 14
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IEnumerable`1<gol.LocateCellAt> gol.LocateCellAt::DetermineNeighbourhood()": {
+          "Lines": {
+            "34": 126,
+            "35": 126,
+            "36": 126,
+            "37": 126,
+            "38": 126,
+            "39": 126,
+            "40": 1134,
+            "41": 1134,
+            "42": 126
+          },
+          "Branches": [
+            {
+              "Line": 35,
+              "Offset": 125,
+              "EndOffset": 127,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 35,
+              "Offset": 125,
+              "EndOffset": 150,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 126
+            }
+          ]
+        },
+        "System.Boolean gol.LocateCellAt::Equals(System.Object)": {
+          "Lines": {
+            "45": 67121,
+            "46": 67121,
+            "47": 67121,
+            "48": 67121,
+            "49": 67121
+          },
+          "Branches": [
+            {
+              "Line": 46,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 67121
+            },
+            {
+              "Line": 46,
+              "Offset": 23,
+              "EndOffset": 25,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 5819
+            },
+            {
+              "Line": 46,
+              "Offset": 9,
+              "EndOffset": 41,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 61302
+            },
+            {
+              "Line": 46,
+              "Offset": 23,
+              "EndOffset": 41,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 61302
+            }
+          ]
+        },
+        "System.Int32 gol.LocateCellAt::GetHashCode()": {
+          "Lines": {
+            "52": 1095,
+            "53": 1095,
+            "54": 1095
+          },
+          "Branches": []
+        },
+        "System.Void gol.LocateCellAt::.ctor(System.Int32,System.Int32)": {
+          "Lines": {
+            "17": 69391,
+            "18": 69391,
+            "19": 69391,
+            "20": 69391,
+            "21": 69391
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\lab\\coderetreat\\verbsovernouns\\gol\\LocateLivingCells.cs": {
+      "gol.LocateLivingCells": {
+        "System.Void gol.LocateLivingCells::Resurrect(gol.LocateCellAt)": {
+          "Lines": {
+            "16": 8,
+            "17": 8,
+            "18": 8
+          },
+          "Branches": []
+        },
+        "System.Void gol.LocateLivingCells::Die(gol.LocateCellAt)": {
+          "Lines": {
+            "21": 120,
+            "22": 120,
+            "23": 120
+          },
+          "Branches": []
+        },
+        "System.Boolean gol.LocateLivingCells::IsAlive(gol.LocateCellAt)": {
+          "Lines": {
+            "26": 979,
+            "27": 979,
+            "28": 979
+          },
+          "Branches": []
+        },
+        "System.Int32 gol.LocateLivingCells::NumberOfLivingCells()": {
+          "Lines": {
+            "31": 1,
+            "32": 1,
+            "33": 1
+          },
+          "Branches": []
+        },
+        "System.Void gol.LocateLivingCells::Apply(gol.ChangeCellState,gol.LocateCellAt)": {
+          "Lines": {
+            "36": 121,
+            "37": 121,
+            "41": 120,
+            "42": 120,
+            "46": 1,
+            "47": 1,
+            "49": 121
+          },
+          "Branches": [
+            {
+              "Line": 37,
+              "Offset": 17,
+              "EndOffset": 19,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 4
+            },
+            {
+              "Line": 37,
+              "Offset": 28,
+              "EndOffset": 30,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 37,
+              "Offset": 39,
+              "EndOffset": 41,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 37,
+              "Offset": 17,
+              "EndOffset": 58,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 120
+            },
+            {
+              "Line": 37,
+              "Offset": 28,
+              "EndOffset": 58,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 120
+            },
+            {
+              "Line": 37,
+              "Offset": 39,
+              "EndOffset": 72,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            },
+            {
+              "Line": 37,
+              "Offset": 50,
+              "EndOffset": 72,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 1
+            },
+            {
+              "Line": 37,
+              "Offset": 50,
+              "EndOffset": 82,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 121
+            }
+          ]
+        },
+        "System.Void gol.LocateLivingCells::.ctor()": {
+          "Lines": {
+            "10": 4,
+            "11": 4,
+            "12": 4,
+            "13": 4
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\lab\\coderetreat\\verbsovernouns\\gol\\PrintGeneration.cs": {
+      "gol.PrintGeneration": {
+        "System.String gol.PrintGeneration::ToString()": {
+          "Lines": {
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "30": 0,
+            "31": 0,
+            "33": 0,
+            "35": 0,
+            "36": 0,
+            "39": 0,
+            "40": 0
+          },
+          "Branches": [
+            {
+              "Line": 25,
+              "Offset": 133,
+              "EndOffset": 44,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 71,
+              "EndOffset": 73,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 71,
+              "EndOffset": 80,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 30,
+              "Offset": 96,
+              "EndOffset": 98,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 30,
+              "Offset": 96,
+              "EndOffset": 112,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 133,
+              "EndOffset": 135,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void gol.PrintGeneration::.ctor(gol.EnumerateCells,gol.LocateLivingCells)": {
+          "Lines": {
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\lab\\coderetreat\\verbsovernouns\\gol\\ProceedToNextGeneration.cs": {
+      "gol.ProceedToNextGeneration": {
+        "gol.LocateLivingCells gol.ProceedToNextGeneration::FromCurrentGeneration(gol.LocateLivingCells)": {
+          "Lines": {
+            "16": 1,
+            "17": 1,
+            "18": 1,
+            "20": 245,
+            "21": 121,
+            "22": 121,
+            "23": 121,
+            "24": 121,
+            "26": 121,
+            "27": 121,
+            "29": 1,
+            "30": 1
+          },
+          "Branches": [
+            {
+              "Line": 20,
+              "Offset": 104,
+              "EndOffset": 45,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 121
+            },
+            {
+              "Line": 20,
+              "Offset": 104,
+              "EndOffset": 106,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Void gol.ProceedToNextGeneration::.ctor(gol.EnumerateCells)": {
+          "Lines": {
+            "10": 1,
+            "11": 1,
+            "12": 1,
+            "13": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\lab\\coderetreat\\verbsovernouns\\gol\\Program.cs": {
+      "gol.Program": {
+        "gol.LocateLivingCells gol.Program::Square()": {
+          "Lines": {
+            "26": 0,
+            "27": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "41": 0,
+            "42": 0
+          },
+          "Branches": []
+        },
+        "gol.LocateLivingCells gol.Program::TenCellRow()": {
+          "Lines": {
+            "45": 0,
+            "46": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "59": 0,
+            "60": 0
+          },
+          "Branches": []
+        }
+      },
+      "gol.Program/<Main>d__0": {
+        "System.Void gol.Program/<Main>d__0::MoveNext()": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "14": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0
+          },
+          "Branches": [
+            {
+              "Line": 19,
+              "Offset": 132,
+              "EndOffset": 134,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 132,
+              "EndOffset": 198,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    }
+  }
+}
