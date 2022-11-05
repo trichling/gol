@@ -8,10 +8,12 @@ let neigboursOfCell (x, y) =
     ]
 
 let allNeigbours world =
-    world |> List.map neigboursOfCell
+    world 
+    |> List.map neigboursOfCell
+    |> List.collect id
+    |> List.except world
     |> Seq.distinct
     |> List.ofSeq
-    |> List.collect id
 
 let isAlive world cell =
    List.contains cell world
