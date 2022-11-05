@@ -1,22 +1,14 @@
 module GameOfLife
 
+let isAlive world cell =
+   List.contains cell world
+
 let neigboursOfCell (x, y) =
     [ 
       (x - 1, y - 1); (x, y - 1); (x + 1, y - 1);
       (x - 1, y    );             (x + 1, y    );
       (x - 1, y + 1); (x, y + 1); (x + 1, y + 1)
     ]
-
-let allNeigbours world =
-    world 
-    |> List.map neigboursOfCell
-    |> List.collect id
-    |> List.except world
-    |> Seq.distinct
-    |> List.ofSeq
-
-let isAlive world cell =
-   List.contains cell world
 
 let livingNeigbours cell world= 
     neigboursOfCell cell 
@@ -42,6 +34,14 @@ let dyingCells world =
 
 let remainingCells world =
     List.filter (staysAlive world) world
+    |> Seq.distinct
+    |> List.ofSeq
+
+let allNeigbours world =
+    world 
+    |> List.map neigboursOfCell
+    |> List.collect id
+    |> List.except world
     |> Seq.distinct
     |> List.ofSeq
 
