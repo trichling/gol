@@ -46,7 +46,8 @@ let allNeigbours world =
     |> List.ofSeq
 
 let respawningCells world =
-    allNeigbours world |> List.filter (respawns world)
+    allNeigbours world 
+    |> List.filter (respawns world)
     |> Seq.distinct
     |> List.ofSeq
 
